@@ -1,0 +1,46 @@
+asamblor ARC
+
+input 1:
+
+.begin
+.org 2048
+main: ld [x], %r1
+      ld [y], %r2
+      addcc %r1,%r2,%r3
+      st %r3, [z]
+      jmpl %r15+4, %r0
+x: 15
+y: 9
+z: 0
+.end
+
+
+
+Cod:
+//Gasirea main-ului
+1.
+string main = parti[2].ToString();
+int k = 3;
+if(main.IndexOf("main")==0)
+{
+    main = parti[k].ToString();
+    k++;
+}
+2.
+char[] main = parti[2].ToCharArray(), Main = { 'm', 'a', 'i', 'n' };
+bool gasit = false;int k = 3;
+while(!gasit)
+{
+    for(int i=0;i<main.Length;i++)
+    {
+        for(int j=0;j<Main.Length;j++)
+            if(Main[j] == main[i])
+            {
+                gasit = true; break;
+            }
+
+        if(gasit) break;
+    }
+    main = parti[k].ToCharArray();
+    k++;
+}
