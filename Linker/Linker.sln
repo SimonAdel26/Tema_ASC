@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linker", "Linker\Linker.csproj", "{ECF9EB35-B45B-40E0-8A33-A614D8CD460B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF9EB35-B45B-40E0-8A33-A614D8CD460B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF9EB35-B45B-40E0-8A33-A614D8CD460B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF9EB35-B45B-40E0-8A33-A614D8CD460B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF9EB35-B45B-40E0-8A33-A614D8CD460B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F674F244-B82E-4555-BC8C-B6D4857D779B}
+	EndGlobalSection
+EndGlobal
