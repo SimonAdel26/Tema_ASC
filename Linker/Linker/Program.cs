@@ -1,5 +1,4 @@
-﻿
-//linker
+﻿//linker
 
 //Pasul 1 - Citire , determinarea adresei de baza a fiecarui modul , crearea tabelei de simbol si adresa absoluta a 
 
